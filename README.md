@@ -4,13 +4,6 @@ In this project we built a personalized recommender web app using Yelp dataset o
 We tested the models using AUC which is a decision-support metric that checks whether customers like the item or not. In our case, figuring out customer preference in general is more important and practical. 
 And for deployment, we used Angular8 and Flask frameworks.
 
-### Datasets:- 
-#### Primary Dataset
-The primary dataset for our model was [Yelp dataset](https://www.yelp.com/dataset). From that, we used 3 datasets namely business.json, reviews.json and users.json. 
-
-#### Secondary Dataset
-The Secondary dataset for our model was [median income for each postal code](https://www.census.gov/) which was then mapped to businesses.
-
 ### Data Cleaning and Data Preparation
 #### Business
 Following are the ways in which we cleaned and prepared our Business dataset:
